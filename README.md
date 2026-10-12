@@ -1,10 +1,10 @@
 # React.js Learning Repository
 
-A repository for React.js practice, examples, and learning exercises. The source files are the authority for which concepts are covered.
+A repository for React.js practice, examples, and learning exercises. Source files are the authority for which concepts are covered.
 
 ## Learning focus
 
-Use the examples present here to explore React component structure, props, state, event handling, conditional rendering, lists, hooks, and reusable UI patterns where implemented.
+Use the examples present in this repository to explore component structure, props, state, event handling, conditional rendering, lists, hooks, and reusable UI patterns where implemented.
 
 ## Getting started
 
@@ -13,14 +13,14 @@ git clone https://github.com/saikishore2410/React.js.git
 cd React.js
 ```
 
-For an npm/Vite project, use:
+For a Vite/npm project, install dependencies and start the development server using the configured scripts:
 
 ```bash
 npm install
 npm run dev
 ```
 
-These commands apply only if the corresponding scripts are present in `package.json`; follow project-specific instructions otherwise.
+These commands apply only if the scripts exist in `package.json`; follow project-specific instructions otherwise.
 
 ## Good practices
 
