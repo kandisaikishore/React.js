@@ -1,5 +1,10 @@
 # React.js Learning Repository
 
+## Live Demo / Deployment URL
+
+**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The repository's GitHub URL is the source code, not a deployed application.
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/React.js) [![Issues](https://img.shields.io/github/issues/saikishore2410/React.js)](https://github.com/saikishore2410/React.js/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/React.js)](https://github.com/saikishore2410/React.js/commits/main)
 
 > A repository for React.js practice, examples, and learning exercises. Source files are the authority for which concepts are covered.
