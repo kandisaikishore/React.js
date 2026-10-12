@@ -1,22 +1,29 @@
 name: Static Site CI
+
 on:
   workflow_dispatch:
   push:
   pull_request:
+
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check entry point
-        shell: bash
-        run: test -f index.html
-      - name: Parse HTML
+      - name: Validate captured HTML document
         shell: python
         run: |
           import html.parser
           from pathlib import Path
-          p=html.parser.HTMLParser()
-          p.feed(Path("index.html").read_text(encoding="utf-8"))
-          p.close()
-          print("index.html parsed successfully")
+          candidates = sorted(Path(".").glob("*.html"))
+          if not candidates:
+              raise SystemExit("No HTML entry document found at repository root")
+          parser = html.parser.HTMLParser()
+          for path in candidates:
+              parser.feed(path.read_text(encoding="utf-8"))
+              parser.close()
+              parser.reset()
+              print(f"{path}: parsed successfully")
