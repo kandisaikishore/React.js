@@ -1,57 +1,47 @@
 # React.js Learning Repository
 
-## Live Demo / Deployment URL
+[![React](https://img.shields.io/badge/React-Learning-61DAFB?logo=react&logoColor=20232A)](https://react.dev/) [![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/React.js)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The repository's GitHub URL is the source code, not a deployed application.
+A learning repository for exploring React.js and frontend development concepts. Use the examples and included project material to understand how React-based interfaces are structured and maintained.
 
+## Learning goals
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/React.js) [![Issues](https://img.shields.io/github/issues/saikishore2410/React.js)](https://github.com/saikishore2410/React.js/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/React.js)](https://github.com/saikishore2410/React.js/commits/main)
+- Understand component-based UI architecture
+- Practise reusable component design and data flow
+- Explore props, state, event handling, and rendering patterns where present
+- Develop habits around accessibility, responsive design, and maintainable code
 
-> A repository for React.js practice, examples, and learning exercises. Source files are the authority for which concepts are covered.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-A repository for React.js practice, examples, and learning exercises. Source files are the authority for which concepts are covered.
-
-## Learning focus
-
-Use the examples present in this repository to explore component structure, props, state, event handling, conditional rendering, lists, hooks, and reusable UI patterns where implemented.
+The current repository includes learning material and an HTML reference file. Check its contents before assuming a complete runnable React application or a public deployment is available.
 
 ## Getting started
 
 ```bash
-git clone https://github.com/saikishore2410/React.js.git
+git clone https://github.com/kandisaikishore/React.js.git
 cd React.js
 ```
 
-For a Vite/npm project, install dependencies and start the development server using the configured scripts:
+If the project contains a `package.json`, follow its scripts. For a configured npm-based app, the typical workflow is:
 
 ```bash
 npm install
 npm run dev
 ```
 
-These commands apply only if the scripts exist in `package.json`; follow project-specific instructions otherwise.
+These commands apply only when the corresponding manifest and scripts exist.
 
-## Good practices
+## Recommended practice
 
-- Keep components focused and reusable
-- Use descriptive component and prop names
-- Handle empty and loading states
-- Test behaviour and accessibility
-- Check responsive layouts
+- Build small components with clear responsibilities
+- Keep state close to where it is used
+- Add accessible names and keyboard support
+- Handle empty, loading, and error states
+- Test layouts at different viewport sizes
+- Add focused tests as interactive behaviour grows
 
-## Contributions
+## Contributing
 
-Improvements to examples, explanations, and maintainability are welcome.
+Suggestions that improve examples, clarity, and maintainability are welcome. Include what was changed and how it was verified.
 
 ## License
 
-No license is specified. Add a `LICENSE` file before granting reuse rights.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
